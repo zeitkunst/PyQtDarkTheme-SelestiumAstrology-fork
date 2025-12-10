@@ -566,7 +566,8 @@ QSlider {
 }
 /* TODO make color depend on light or dark mode */
 QSlider:focus {
-    border: 1px dashed {{ border|color }};
+    border: 1px dashed {{ foreground|color }};
+
 }
 QSlider::groove {
     border-radius: {{ corner-shape|corner(size=2) }}px;
