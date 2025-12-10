@@ -122,11 +122,6 @@ QCheckBox:hover,
 QRadioButton:hover {
     border-bottom: 2px solid {{ primary|color }};
 }
-QCheckBox:focus,
-QRadioButton:focus{
-    border-bottom: 2px solid {{ primary|color }};
-}
-
 
 QGroupBox {
     font-weight: bold;
@@ -635,7 +630,7 @@ QTabBar::tab {
 QTabBar::tab:hover,
 QTabBar::tab:selected:hover:enabled {
     background: {{ tab.hoverBackground|color }};
-
+}
 QTabBar::tab:selected:enabled {
     color: {{ primary|color }};
     background: {{ tab.activeBackground|color }};
