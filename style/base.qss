@@ -636,6 +636,10 @@ QTabBar::tab:hover,
 QTabBar::tab:selected:hover:enabled {
     background: {{ tab.hoverBackground|color }};
 }
+QTabBar::tab:focus,
+QTabBar::tab:focus {{
+    border-bottom: 4px solid inherit;
+}}
 QTabBar::tab:selected:enabled {
     color: {{ primary|color }};
     background: {{ tab.activeBackground|color }};
