@@ -402,7 +402,8 @@ QPushButton:hover {
     background: {{ primary|color(state="button.hoverBackground") }};
 }
 QPushButton:focus {
-    background: {{ primary|color(state="button.hoverBackground") }};
+    color: {{ background|color }};
+    background: {{ primary|color }};
 }
 
 QPushButton:pressed {
