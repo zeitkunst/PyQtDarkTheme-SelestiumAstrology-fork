@@ -118,10 +118,12 @@ QRadioButton {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 }
+
 QCheckBox:hover,
 QRadioButton:hover {
     border-bottom: 2px solid {{ primary|color }};
 }
+
 QCheckBox:focus,
 QRadioButton:focus {
     border-bottom: 2px solid {{ primary|color }};
@@ -399,6 +401,10 @@ QPushButton:default {
 QPushButton:hover {
     background: {{ primary|color(state="button.hoverBackground") }};
 }
+QPushButton:focus {
+    background: {{ primary|color(state="button.hoverBackground") }};
+}
+
 QPushButton:pressed {
     background: {{ primary|color(state="button.activeBackground") }};
 }
@@ -556,6 +562,10 @@ examples: https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qslider
 --------------------------------------------------------------------------- */
 QSlider {
     padding: 2px 0;
+}
+/* TODO make color depend on light or dark mode */
+QSlider:focus {
+    border: 1px dashed;
 }
 QSlider::groove {
     border-radius: {{ corner-shape|corner(size=2) }}px;
