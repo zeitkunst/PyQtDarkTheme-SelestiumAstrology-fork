@@ -122,6 +122,11 @@ QCheckBox:hover,
 QRadioButton:hover {
     border-bottom: 2px solid {{ primary|color }};
 }
+QCheckBox:focus,
+QRadioButton:focus{
+    border-bottom: 2px solid {{ primary|color }};
+}
+
 
 QGroupBox {
     font-weight: bold;
