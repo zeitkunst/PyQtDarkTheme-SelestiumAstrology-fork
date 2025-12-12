@@ -57,8 +57,8 @@ examples: https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qtooltip
 --------------------------------------------------------------------------- */
 QToolTip {
     background: {{ background|color(state="popup") }};
-    /* color: {{ foreground|color }}; */
-    color: #4d5157;
+    color: {{ foreground|color }};
+    /* color: #4d5157; */
 }
 
 /* QSizeGrip --------------------------------------------------------------
