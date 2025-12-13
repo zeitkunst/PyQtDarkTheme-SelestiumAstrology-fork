@@ -657,7 +657,8 @@ QTabBar::tab:selected:enabled {
 
 
 QTabBar::tab:focus {{
-    border-bottom: 4px solid {{ primary|color }};
+    border-bottom: 4px solid;
+    border-color: {{ primary|color }};
 }}
 
 QTabBar::tab:selected:disabled,
