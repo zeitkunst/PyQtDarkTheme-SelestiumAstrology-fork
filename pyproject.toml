@@ -1,6 +1,6 @@
 [project]
 license = {text = "MIT"}
-name = "PyQtDarkTheme-SelestiumAstrology-fork"
+name = "pyqtdarktheme-fork"
 version = "0.0.1"
 
 dependencies = [
