@@ -1,7 +1,7 @@
 [project]
 license = {text = "MIT"}
 name = "pyqtdarktheme-fork"
-version = "0.0.1"
+version = "2.3.4.1"
 
 dependencies = [
   "PySide6",
