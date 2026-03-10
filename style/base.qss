@@ -1281,7 +1281,7 @@ QRadioButton {
 }
 QGroupBox::title,
 QAbstractItemView::item {
-    spacing: 0px;
+    spacing: 6px;
 }
 QCheckBox::indicator,
 QGroupBox::indicator,
