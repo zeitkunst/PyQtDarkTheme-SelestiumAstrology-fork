@@ -545,7 +545,7 @@ QComboBox QListView[
 {{ |env(value="frameShape=NoFrame", version=">=6.0.0") }}
 ] {
     margin: 0;
-    padding: 0px;
+    padding: 4px;
     background: {{ background|color(state="popup") }};
     {{ primary|color(state="list.selectionBackground")|env(value="selection-background-color: ${};", version="<6.0.0") }}
     border-radius: 0;
@@ -1281,7 +1281,7 @@ QRadioButton {
 }
 QGroupBox::title,
 QAbstractItemView::item {
-    spacing: 6px;
+    spacing: 0px;
 }
 QCheckBox::indicator,
 QGroupBox::indicator,
